@@ -4,11 +4,24 @@
     line-height: .1rem;
 }
 
-
+.navbar{
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.014) 0%, white 100%);
+}
 
 .logo-img{
     width: 4rem;
     height: 4rem;
+}
+
+.hero-btn{
+    background-color: #212529;
+    color: whitesmoke;
+}
+
+.hero-btn:hover{
+    background-color: #212529f1;
+    color: whitesmoke;
+
 }
 
 .hero-image{
@@ -16,7 +29,7 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 85vh;
 }
 
 .navbar-svg-button{

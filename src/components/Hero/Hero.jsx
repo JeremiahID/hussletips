@@ -11,10 +11,10 @@ const Hero = () => {
             <h1 className="display-5 fw-bold">
               Empower and Inspire
             </h1>
-            <p className=" text-muted mt-3">
+            <p className=" text-muted mt-3 fs-5">
               Helping individuals improve their skills and achieve success in their field.
             </p>
-            <button className="btn btn-warning btn-lg mt-3">
+            <button className="hero-btn btn  btn-lg mt-3">
               Get Started
             </button>
           </div>
