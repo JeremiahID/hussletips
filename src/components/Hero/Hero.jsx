@@ -2,7 +2,7 @@ import Navbar from "../Navbar/Navbar";
 
 const Hero = () => {
   return (
-    <section className="hero-image py-5">
+    <section className="hero-image">
       <Navbar/>
       <div className="container py-5">
         <div className="row align-items-center">
