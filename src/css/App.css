@@ -1,15 +1,22 @@
 
-.navbar{
-    
+/* Pre Defined Default styling */
+.lh-2{
+    line-height: .1rem;
 }
 
+
+
+.logo-img{
+    width: 4rem;
+    height: 4rem;
+}
 
 .hero-image{
     background-image: url('../images/hero.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 80vh;
 }
 
 .navbar-svg-button{
