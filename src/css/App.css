@@ -1,0 +1,23 @@
+
+.navbar{
+    
+}
+
+
+.hero-image{
+    background-image: url('../images/hero.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.navbar-svg-button{
+    width: 2vw;
+    cursor: pointer;
+}
+
+.svg-button{
+    border: 0 !important;
+    background-color: transparent !important;
+}

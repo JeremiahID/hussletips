@@ -1,6 +1,10 @@
+import searchIcon from '../../icons/search.svg';
+
+
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-white border-bottom sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top">
       <div className="container">
         <a className="navbar-brand fw-bold" href="/">HustleTips</a>
 
@@ -22,7 +26,9 @@ const Navbar = () => {
             <li className="nav-item"><a className="nav-link" href="#">Health</a></li>
           </ul>
 
-          <button className="btn btn-outline-secondary">🔍</button>
+          <button className='svg-button'>
+            <img  className ='navbar-svg-button' src={searchIcon} alt="searchIcon"  />
+          </button>
         </div>
       </div>
     </nav>
