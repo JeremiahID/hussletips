@@ -1,6 +1,7 @@
-import FeaturedPostCard from "./FeaturedPostCard";
 
-const FeaturedPosts = ({ posts, link, header }) => {
+import LeadershipPostCard from "./LeadershipPostCard";
+
+const LeadershipPosts = ({ posts, link, header }) => {
   return (
     <section className="container py-5 ">
       <div className="d-flex justify-content-between align-items-center mb-4">
@@ -13,7 +14,7 @@ const FeaturedPosts = ({ posts, link, header }) => {
       <div className="row g-4">
         {posts.map(post => (
           <div key={post.id} className="col-md-4">
-            <FeaturedPostCard post={post} />
+            <LeadershipPostCard post={post} />
           </div>
         ))}
       </div>
@@ -21,4 +22,4 @@ const FeaturedPosts = ({ posts, link, header }) => {
   );
 };
 
-export default FeaturedPosts;
+export default LeadershipPosts;

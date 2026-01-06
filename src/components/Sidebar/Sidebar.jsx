@@ -6,8 +6,8 @@ const Sidebar = () => {
   return (
     <aside>
       <Trending />
-      <Categories />
-      <Newsletter />
+      {/* <Categories />
+      <Newsletter /> */}
     </aside>
   );
 };

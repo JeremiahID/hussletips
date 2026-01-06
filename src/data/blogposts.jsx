@@ -6,7 +6,7 @@ const blogposts = [
     image: "https://picsum.photos/600/400?random=1",
     author: "Jeremiah Idahosa",
     date: "Jan 3, 2026",
-    category: "Web Development"
+    category: "Entreprenuer"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const blogposts = [
     image: "https://picsum.photos/600/400?random=2",
     author: "Jane Doe",
     date: "Jan 1, 2026",
-    category: "React"
+    category: "Entreprenuer"
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const blogposts = [
     image: "https://picsum.photos/600/400?random=3",
     author: "John Smith",
     date: "Dec 28, 2025",
-    category: "Design"
+    category: "Entreprenuer"
   },
 ];
 

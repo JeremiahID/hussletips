@@ -13,18 +13,19 @@ const Home = () => {
       {/* <Navbar /> */}
       <Hero />
 
-      <FeaturedPosts posts={blogposts} />
-      
+      <FeaturedPosts posts={blogposts} link={'See all →'} header = {'Entreprenuer'} />
       <div className="container py-5">
         <div className="row">
           <div className="col-md-8">
             <LatestPosts posts={blogposts} />
+            {/* <LatestPosts posts={blogposts} /> */}
           </div>
           <div className="col-md-4">
             <Sidebar />
           </div>
         </div>
       </div>
+      <FeaturedPosts posts={blogposts} />
 
       <Footer />
     </>

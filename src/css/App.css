@@ -45,3 +45,10 @@ a{
     border: 0 !important;
     background-color: transparent !important;
 }
+
+
+
+/* Featured Post */
+.featured-post-header{
+    font-family: calibri;
+}
