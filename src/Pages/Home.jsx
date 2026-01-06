@@ -1,7 +1,9 @@
 // import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import FeaturedPosts from "../components/FeaturedPosts/FeaturedPosts";
-import blogposts from "../data/blogposts";
+import Featuredblogposts from "../data/featuredblogposts";
+import Latestblogposts from "../data/lastestblogposts";
+import LeadershipPosts from "../components/leadership/LeasdershipPost";
 import LatestPosts from "../components/LatestPosts/LatestPosts";
 import Sidebar from "../components/Sidebar/Sidebar";
 import Footer from "../components/Footer/Footer";
@@ -13,11 +15,11 @@ const Home = () => {
       {/* <Navbar /> */}
       <Hero />
 
-      <FeaturedPosts posts={blogposts} link={'See all →'} header = {'Entreprenuer'} />
+      <FeaturedPosts posts={Featuredblogposts} link={'See all →'} header = {'Entreprenuer'} />
       <div className="container py-5">
         <div className="row">
           <div className="col-md-8">
-            <LatestPosts posts={blogposts} />
+            <LatestPosts posts={Latestblogposts} />
             {/* <LatestPosts posts={blogposts} /> */}
           </div>
           <div className="col-md-4">
@@ -25,7 +27,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <FeaturedPosts posts={blogposts} />
+      <LeadershipPosts posts={Featuredblogposts} />
 
       <Footer />
     </>
