@@ -1,4 +1,4 @@
-const blogposts = [
+const Featuredblogposts = [
   {
     id: 1,
     title: "The Future of Web Development",
@@ -28,4 +28,4 @@ const blogposts = [
   },
 ];
 
-export default blogposts;
+export default Featuredblogposts;
