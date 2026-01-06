@@ -4,7 +4,7 @@ const FeaturedPostCard = ({ post }) => {
       <div className="bg-secondary" style={{ height: "180px" }}></div>
 
       <div className="card-body">
-        <span className="text-warning small fw-semibold">
+        <span className=" text-primary small fw-semibold">
           {post.category}
         </span>
 
@@ -16,7 +16,7 @@ const FeaturedPostCard = ({ post }) => {
           {post.excerpt}
         </p>
 
-        <a href={`/post/${post.id}`} className="text-warning text-decoration-none">
+        <a href={`/post/${post.id}`} className="text-primary text-decoration-none">
           Read More →
         </a>
       </div>

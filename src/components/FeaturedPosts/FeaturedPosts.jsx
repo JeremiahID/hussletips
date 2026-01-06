@@ -5,7 +5,7 @@ const FeaturedPosts = ({ posts }) => {
     <section className="container py-5 ">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2 className="fw-bold">Featured Artcles</h2>
-        <a href="#" className="text-warning text-decoration-none">
+        <a href="#" className="text-primary text-decoration-none">
           See all →
         </a>
       </div>
