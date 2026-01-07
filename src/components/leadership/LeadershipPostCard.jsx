@@ -1,9 +1,9 @@
 const LeadershipPostCard = ({ post }) => {
   return (
-    <div className="card h-100 shadow-sm border-0">
+    <div className="card h-100 shadow-sm border-0 d-flex ">
       <div className="bg-secondary" style={{ height: "180px" }}></div>
 
-      <div className="card-body">
+      <div className="card-body d">
         <span className=" text-primary small fw-semibold">
           {post.category}
         </span>
