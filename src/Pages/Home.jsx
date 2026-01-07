@@ -3,6 +3,7 @@ import Hero from "../components/Hero/Hero";
 import FeaturedPosts from "../components/FeaturedPosts/FeaturedPosts";
 import Featuredblogposts from "../data/featuredblogposts";
 import Latestblogposts from "../data/lastestblogposts";
+import Leadershipblogposts from "../data/leadershipblogposts"
 import LeadershipPosts from "../components/leadership/LeasdershipPost";
 import LatestPosts from "../components/LatestPosts/LatestPosts";
 import Sidebar from "../components/Sidebar/Sidebar";
@@ -27,7 +28,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <LeadershipPosts posts={Featuredblogposts} />
+      <LeadershipPosts posts={Leadershipblogposts} />
 
       <Footer />
     </>
