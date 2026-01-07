@@ -56,8 +56,21 @@ a{
 
 
 /* Leadership Post */
+
+.banner-wrapper{
+    width: 100%;
+}
+
 .leadership-banner-img{
-   object-fit: cover;
-   width: inherit;
-   height: inherit;
+    width:30%;
+}
+
+.btn-leadership{
+    height: 30%;
+    background-color: #305872;
+}
+
+.btn-leadership:hover{
+    background-color: #305872ef;
+    transition: all .5s ease-in-out 0s ;
 }
