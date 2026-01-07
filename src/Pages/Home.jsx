@@ -7,6 +7,8 @@ import Leadershipblogposts from "../data/leadershipblogposts"
 import LeadershipPosts from "../components/leadership/LeasdershipPost";
 import LatestPosts from "../components/LatestPosts/LatestPosts";
 import Sidebar from "../components/Sidebar/Sidebar";
+import DigitalMarkertingPosts from "../components/DigitalMarketing/DigitalMakertingPost";
+import DigitalMakertingBlogPosts from "../data/digitalmakertingposts";
 import Footer from "../components/Footer/Footer";
 
 
@@ -29,6 +31,8 @@ const Home = () => {
         </div>
       </div>
       <LeadershipPosts posts={Leadershipblogposts} />
+      <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} />
+
 
       <Footer />
     </>
