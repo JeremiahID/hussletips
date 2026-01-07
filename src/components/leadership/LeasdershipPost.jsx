@@ -15,6 +15,11 @@ const LeadershipPosts = ({ posts, link, header }) => {
             <LeadershipPostCard post={post} />
           </div>
         ))}
+        {posts.map(post => (
+          <div key={post.id} className="col-md-4">
+            <LeadershipPostCard post={post} />
+          </div>
+        ))}
       </div>
     </section>
   );
