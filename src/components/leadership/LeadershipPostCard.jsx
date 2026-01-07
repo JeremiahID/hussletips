@@ -3,7 +3,7 @@ const LeadershipPostCard = ({ post }) => {
     <div className="card h-100 shadow-sm border-0 d-flex ">
       <div className="bg-secondary" style={{ height: "180px" }}></div>
 
-      <div className="card-body d">
+      <div className="card-body  d-flex flex-column justify-content-evenly">
         <span className=" text-primary small fw-semibold">
           {post.category}
         </span>

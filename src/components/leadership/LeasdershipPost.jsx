@@ -21,11 +21,6 @@ const LeadershipPosts = ({ posts}) => {
             <LeadershipPostCard post={post} />
           </div>
         ))}
-        {posts.map(post => (
-          <div key={post.id} className="col-md-3">
-            <LeadershipPostCard post={post} />
-          </div>
-        ))}
       </div>
     </section>
   );
