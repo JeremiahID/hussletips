@@ -85,10 +85,18 @@ a{
 }
 
 .card-body-content{
-    justify-content: space-between;
     position: absolute;
     bottom: .3rem;
     left: .5rem;
+
+}
+
+.card-title a{
+    color: rgb(255, 255, 255);
+}
+
+.card-title a:hover{
+    color: rgba(255, 255, 255, 0.897);
 }
 
 .card-text-author-date{

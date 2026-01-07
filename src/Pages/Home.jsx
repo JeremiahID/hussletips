@@ -31,7 +31,7 @@ const Home = () => {
         </div>
       </div>
       <LeadershipPosts posts={Leadershipblogposts} />
-      <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} />
+      <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} link={'See all →'} header = {'Digital Markerting'} />
 
 
       <Footer />

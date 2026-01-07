@@ -4,7 +4,7 @@ const LeadershipPostCard = ({ post }) => {
       <div className="bg-secondary" style={{ height: "180px" }}></div>
 
       <div className="card-body  d-flex flex-column justify-content-evenly">
-        <span className=" text-primary small fw-semibold">
+        <span className=" text-primary fs-5 fw-semibold">
           {post.category}
         </span>
 
@@ -14,6 +14,10 @@ const LeadershipPostCard = ({ post }) => {
 
         <p className="card-text text-muted">
           {post.excerpt}
+        </p>
+
+        <p className="card-text text-muted">
+          {post.author} {post.date}
         </p>
 
         <a href={`/post/${post.id}`} className="text-primary text-decoration-none">
