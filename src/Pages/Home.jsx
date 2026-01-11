@@ -9,6 +9,8 @@ import LatestPosts from "../components/LatestPosts/LatestPosts";
 import Sidebar from "../components/Sidebar/Sidebar";
 import DigitalMarkertingPosts from "../components/DigitalMarketing/DigitalMakertingPost";
 import DigitalMakertingBlogPosts from "../data/digitalmakertingposts";
+import HealthPosts from "../components/Health/HealthPosts";
+import Healthblogposts from "../data/healthblogposts";
 import Footer from "../components/Footer/Footer";
 
 
@@ -31,7 +33,7 @@ const Home = () => {
       </div>
       <LeadershipPosts posts={Leadershipblogposts} />
       <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} link={'See all →'} header = {'Digital Markerting'} />
-
+      <HealthPosts posts={Healthblogposts} />
 
       <Footer />
     </>

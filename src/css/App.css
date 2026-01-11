@@ -95,6 +95,7 @@ a{
 
 .card-title a{
     color: rgb(255, 255, 255);
+
 }
 
 .card-title a:hover{
@@ -104,4 +105,10 @@ a{
 .card-text-author-date{
     color: rgba(255, 255, 255, 0.603);
     
+}
+
+/* Health */
+.health-post-card-img{
+    width: 10rem;
+    height: 10rem;
 }
