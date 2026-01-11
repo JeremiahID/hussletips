@@ -5,10 +5,11 @@ import leadership_banner_one from '../../images/leadership-banner.webp'
 
 const LeadershipPosts = ({ posts}) => {
   return (
-    <section className="container py-5 ">
-      <div className="mb-4">
+    <section className="container py-md-5 py-0 ">
+      <div className="mb-md-4 mb-0 ">
         <div className=" banner-wrapper d-flex justify-content-between" style={{ height: "150px" }}>
-         <img src={leadership_banner_one} alt="leadership-banner" srcset=""  className=" leadership-banner-img "/>
+          <h2 className="d-block d-md-none fs-1 fw-bolder">Leadership</h2>
+         <img src={leadership_banner_one} alt="leadership-banner" srcset=""  className=" leadership-banner-img d-none d-md-block"/>
          <button className=" btn-leadership btn text-white fw-semibold align">
           Read More
          </button>
