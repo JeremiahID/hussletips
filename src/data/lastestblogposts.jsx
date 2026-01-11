@@ -15,7 +15,7 @@ const Latestblogposts = [
     image: "https://picsum.photos/600/400?random=2",
     author: "Jane Doe",
     date: "Jan 1, 2026",
-    category: "Business"
+    category: "Inspire"
   },
   {
     id: 3,
