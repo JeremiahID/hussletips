@@ -9,9 +9,9 @@ const DigitalMarkertingPosts = ({ posts, header, link }) => {
                     {link}
                 </a>
             </div>
-            <div className="digital-marketing row m-0 ">
+            <div className="digital-marketing row m-0  d-flex flex-column  flex-md-row">
                 {posts.map(post =>(
-                    <div key={post.id} className="col-4">
+                    <div key={post.id} className="col-12 col-md-4 mt-2 mt-md-0">
                         <DigitalMarkertingPostCard  post = { post }/>
                     </div>
                 ))}
