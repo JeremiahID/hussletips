@@ -4,19 +4,19 @@ const Trending = () => {
       id: 1,
       title: "Productivity Hacks",
       icon: "🔥",
-      category: 'business'
+      category: 'Enterprenuer'
     },
     {
       id: 2,
       title: "Online Business",
       icon: "💡",
-      category: 'Inspire'
+      category: 'Digital Marketing'
     },
     {
       id: 3,
       title: "Personal Growth",
       icon: "🚀",
-      category: 'Health'
+      category: 'Inspire'
     },
   ];
 
