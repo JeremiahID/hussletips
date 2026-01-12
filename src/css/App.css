@@ -114,5 +114,5 @@ a{
 }
 
 .aside-post-card{
-    height: 30rem;
+    height: inherit;
 }
