@@ -114,5 +114,25 @@ a{
 }
 
 .aside-post-card{
-    height: inherit;
+    height: 34rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 520px){
+    .aside-post-card{
+        height: 10rem;
+        background-color: #212529;
+        border-radius:0;
+    }
 }
