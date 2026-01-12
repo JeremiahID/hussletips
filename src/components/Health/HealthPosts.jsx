@@ -9,7 +9,7 @@ const HealthPosts = ({ posts }) => {
                         <HealthPostCard key ={post.id} post={post} />
                     ))}
                 </div>
-                <div className="col-md-3 col-12 bg-primary mt-2" >
+                <div className="col-md-3 col-12 bg-primary mt-2 aside-post-card" >
 
                 </div>
             </div>
