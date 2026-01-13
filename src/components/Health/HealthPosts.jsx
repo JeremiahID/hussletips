@@ -11,8 +11,8 @@ const HealthPosts = ({ posts }) => {
                         <HealthPostCard key ={post.id} post={post} />
                     ))}
                 </div>
-                <div className="card col-md-3 col-12 shadow border-0 mt-4  p-0 aside-post-card bg-warning" >
-                    {/* <AsideHealthPosts posts ={AsideHealthblogposts} /> */}
+                <div className="card col-md-3 col-12 shadow border-0 mt-4  p-0 aside-post-card " >
+                    <AsideHealthPosts posts ={AsideHealthblogposts} />
                 </div>
             </div>
       </div>

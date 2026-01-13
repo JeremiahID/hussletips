@@ -2,9 +2,9 @@
 
 const AsidePostCard = ({ post }) => {
     return ( 
-        <section className=" h-100 m-0">
+        <section className="h-100 m-0">
             <div className="card-body h-100 p-0">
-                <div className="position-relative img-wrapper">
+                <div className="position-relative h-100 img-wrapper">
                           <img
                                 src= {post.image}
                                 alt="Hero"
@@ -12,7 +12,7 @@ const AsidePostCard = ({ post }) => {
                                 style={{ objectFit: 'cover' }}
                             />
                 </div>
-                <div className=" card-body-content h-50 bg-info" >
+                <div className=" card-body-content " >
                     <span className=" fw-semibold">
                         {post.category}
                     </span>
