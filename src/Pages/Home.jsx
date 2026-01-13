@@ -33,7 +33,7 @@ const Home = () => {
       </div>
       <LeadershipPosts posts={Leadershipblogposts} />
       <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} link={'See all →'} header = {'Digital Markerting'} />
-      <HealthPosts posts={Healthblogposts} />
+      <HealthPosts posts={Healthblogposts}  />
 
       <Footer />
     </>
