@@ -3,7 +3,7 @@
 const AsidePostCard = ({ post }) => {
     return ( 
         <section className="h-100 m-0">
-            <div className="card-body h-100 p-0">
+            <div className="card-body  p-0">
                 <div className="position-relative h-100 img-wrapper">
                           <img
                                 src= {post.image}
