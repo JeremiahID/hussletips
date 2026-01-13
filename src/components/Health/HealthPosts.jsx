@@ -1,3 +1,4 @@
+import AsidePostCard from "./AsidePostCard";
 import HealthPostCard from "./HealthPostCard";
 
 const HealthPosts = ({ posts }) => {
@@ -10,7 +11,7 @@ const HealthPosts = ({ posts }) => {
                     ))}
                 </div>
                 <div className="card col-md-3 col-12 shadow border-0 mt-4 aside-post-card " >
-
+                    <AsidePostCard  />
                 </div>
             </div>
       </div>
