@@ -1,5 +1,6 @@
-import AsidePostCard from "./AsidePostCard";
 import HealthPostCard from "./HealthPostCard";
+import AsideHealthblogposts from "../../data/asidehealthblogposts";
+import AsideHealthPosts from "./AsideHealthPost";
 
 const HealthPosts = ({ posts }) => {
     return ( 
@@ -10,8 +11,8 @@ const HealthPosts = ({ posts }) => {
                         <HealthPostCard key ={post.id} post={post} />
                     ))}
                 </div>
-                <div className="card col-md-3 col-12 shadow border-0 mt-4 aside-post-card " >
-                    <AsidePostCard  />
+                <div className="card col-md-3 col-12 shadow border-0 mt-4  p-0 aside-post-card bg-warning" >
+                    {/* <AsideHealthPosts posts ={AsideHealthblogposts} /> */}
                 </div>
             </div>
       </div>
