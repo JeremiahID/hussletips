@@ -1,9 +1,9 @@
 
 
-const AsidePostCard = (post) => {
+const AsidePostCard = ({ post }) => {
     return ( 
-        <section>
-            <div className="card-body  p-0">
+        <section className=" h-100 m-0">
+            <div className="card-body h-100 p-0">
                 <div className="position-relative img-wrapper">
                           <img
                                 src= {post.image}
@@ -12,18 +12,18 @@ const AsidePostCard = (post) => {
                                 style={{ objectFit: 'cover' }}
                             />
                 </div>
-                <div className=" card-body-content  text-white" >
-                    <span className=" text-white fw-semibold">
+                <div className=" card-body-content h-50 bg-info" >
+                    <span className=" fw-semibold">
                         {post.category}
                     </span>
 
-                    <h5 className="card-title mt-2 fs-4 text-white">
+                    <h5 className="card-title mt-2 fs-4 ">
                         <a href="#" className="">
                                 {post.title}
                         </a>
                     </h5>
 
-                    <p className="card-text card-text-author-date">
+                    <p className="card-text">
                         {post.author} {post.date}
                     </p>
                 </div>
