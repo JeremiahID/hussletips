@@ -11,6 +11,7 @@ import DigitalMarkertingPosts from "../components/DigitalMarketing/DigitalMakert
 import DigitalMakertingBlogPosts from "../data/digitalmakertingposts";
 import HealthPosts from "../components/Health/HealthPosts";
 import Healthblogposts from "../data/healthblogposts";
+import CurrencyUpdates from "../components/CurrencyUpdates/CureencyUpdates";
 import Footer from "../components/Footer/Footer";
 
 
@@ -34,7 +35,7 @@ const Home = () => {
       <LeadershipPosts posts={Leadershipblogposts} />
       <DigitalMarkertingPosts posts={DigitalMakertingBlogPosts} link={'See all →'} header = {'Digital Markerting'} />
       <HealthPosts posts={Healthblogposts}  />
-
+      <CurrencyUpdates />
       <Footer />
     </>
   );
