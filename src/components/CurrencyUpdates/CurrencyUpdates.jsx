@@ -41,11 +41,7 @@ const CurrencyUpdates = () => {
 
   const getPriceColor = (id, currency) => {
     if (!prevPrices[id]) return "";
-    return prices[id][currency] > prevPrices[id][currency]
-      ? "price-up"
-      : prices[id][currency] < prevPrices[id][currency]
-      ? "price-down"
-      : "";
+    return prices[id][currency] > prevPrices[id][currency] ? "price-up": prices[id][currency] < prevPrices[id][currency] ? "price-down" : "";
   };
 
   return (
