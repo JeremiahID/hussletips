@@ -6,7 +6,7 @@ const AsideHealthblogposts = [
     image: "https://picsum.photos/600/400?random=1",
     author: "Jeremiah Idahosa",
     date: "Jan 3, 2026",
-    category: "Business"
+    category: "Health"
   }
 ];
 
