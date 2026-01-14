@@ -122,15 +122,15 @@ a{
 .marquee-container {
   width: 100%;
   overflow: hidden;
-  background: #0f172a;
-  padding: 12px 0;
+  background: #212529;
+  padding: 1rem 0;
   color: white;
 }
 
 .marquee {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll 20s linear infinite;
+  animation: scroll 60s linear infinite;
 }
 
 .marquee-item {
@@ -139,11 +139,17 @@ a{
   font-size: 16px;
 }
 
+.marquee-item span{
+    padding: 0 .2rem;
+    font-weight: bold;
+}
 
 .currency-image{
     width: 2rem;
-    /* margin: 0 .5re; */
+    margin: 0 .5rem;
 }
+
+
 
 @keyframes scroll {
   from {
