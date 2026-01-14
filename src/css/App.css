@@ -126,7 +126,7 @@ a{
   background: #21252900;
   padding: 1rem 0;
   border: 1px solid #2125292c;
-  color: rgb(22, 21, 21);
+  color: rgba(0, 0, 0, 0.884);
 }
 
 .marquee {
@@ -159,7 +159,7 @@ a{
     transform: translateX(100%);
   }
   to {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
