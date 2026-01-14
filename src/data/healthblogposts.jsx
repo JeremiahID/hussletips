@@ -6,7 +6,7 @@ const Healthblogposts = [
     image: "https://picsum.photos/600/400?random=1",
     author: "Jeremiah Idahosa",
     date: "Jan 3, 2026",
-    category: "Business"
+    category: "Health"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const Healthblogposts = [
     image: "https://picsum.photos/600/400?random=2",
     author: "Jane Doe",
     date: "Jan 1, 2026",
-    category: "Inspire"
+    category: "Health"
   },
   {
     id: 3,
