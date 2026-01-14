@@ -142,11 +142,12 @@ a{
 .marquee-item span{
     padding: 0 .2rem;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 .currency-image{
     width: 2rem;
-    margin: 0 .5rem;
+    margin: 0 .2rem;
 }
 
 
