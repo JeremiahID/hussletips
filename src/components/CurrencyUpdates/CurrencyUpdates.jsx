@@ -57,7 +57,7 @@ const CurrencyUpdates = () => {
           {coins.map((coin) => (
             <div key={coin.id} className="marquee-item">
               <img src={coin.logo} alt={coin.symbol} className="currency-image"/>
-              <span className="symbol fs-5 p-1">{coin.symbol}</span>
+              <span className="symbol">{coin.symbol}</span>
 
               <span className={getPriceColor(coin.id, "usd")}>
                 ${prices[coin.id].usd.toLocaleString()}
