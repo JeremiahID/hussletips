@@ -2,14 +2,13 @@ import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 import './css/bootstrap.css'
 import './css/App.css'
 import Home from "./Pages/Home";
+// import Hero from "./components/Hero/Hero";
 import PostPage from "./Pages/PostPage";
-import Navbar from "./components/Navbar/Navbar";
-import CategoryPage from "./Pages/CategoryPage";
+
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<PostPage />} />
