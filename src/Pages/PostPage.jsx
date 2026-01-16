@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Navbar from "../components/Navbar/Navbar";
+import Footer from "../components/Footer/Footer";
 
 const PostPage = () => {
   const { id } = useParams();
@@ -24,6 +25,7 @@ const PostPage = () => {
         <img src={post.image} alt={post.title} className="img-fluid mb-4" />
         <div dangerouslySetInnerHTML={{ __html: post.content }} />
       </div>
+      <Footer />
     </>
 
   );
