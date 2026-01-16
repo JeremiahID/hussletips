@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<PostPage />} />
-        <Route path="/category/:slug" element={<CategoryPage />} />
+        {/* <Route path="/category/:slug" element={<CategoryPage />} /> */}
       </Routes>
     </Router>
   );
