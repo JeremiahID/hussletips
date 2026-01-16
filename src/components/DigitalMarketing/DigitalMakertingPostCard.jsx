@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const DigitalMarkertingPostCard = ({ post }) => {
     return ( 
         <div className=" card ">
@@ -16,9 +18,9 @@ const DigitalMarkertingPostCard = ({ post }) => {
                     </span>
 
                     <h5 className="card-title mt-2 fs-4 text-white">
-                        <a href="#" className="">
-                                {post.title}
-                        </a>
+                       <Link to={`/post/${post.id}`}>
+                            {post.title}
+                        </Link>
                     </h5>
 
                     <p className="card-text card-text-author-date">
