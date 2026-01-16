@@ -1,7 +1,15 @@
 const FeaturedPostCard = ({ post }) => {
   return (
     <div className="card h-100 shadow-sm border-0">
-      <div className="bg-secondary" style={{ height: "180px" }}></div>
+      <div className="bg-secondary" style={{ height: "180px" }}>
+        <img
+            src= {post.image}
+            alt="Hero"
+            className="w-100 h-100"
+            style={{ objectFit: 'cover' }}
+        />
+
+      </div>
 
       <div className="card-body">
         <span className=" text-primary small fw-semibold">
