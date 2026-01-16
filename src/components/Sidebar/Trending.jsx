@@ -3,18 +3,21 @@ const Trending = () => {
     {
       id: 1,
       title: "Productivity Hacks",
+      image: "https://picsum.photos/600/400?random=1",
       icon: "🔥",
       category: 'Enterprenuer'
     },
     {
       id: 2,
       title: "Online Business",
+      image: "https://picsum.photos/600/400?random=7",
       icon: "💡",
       category: 'Digital Marketing'
     },
     {
       id: 3,
       title: "Personal Growth",
+      image: "https://picsum.photos/600/400?random=8",
       icon: "🚀",
       category: 'Inspire'
     },
@@ -32,7 +35,14 @@ const Trending = () => {
               key={item.id}
               className="list-group-item px-0 d-flex  align-items-center gap-2"
             >
-              <div className="bg-primary rounded me-3" style={{ width: "150px", height: "100px" }}></div>
+              <div className="bg-primary rounded me-3" style={{ width: "150px", height: "100px" }}>
+                <img
+                    src= {item.image}
+                    alt="Hero"
+                    className="w-100 h-100"
+                    style={{ objectFit: 'cover' }}
+                />
+              </div>
               <div>
                 <div className="d-flex flex-column">
                   <span>{item.icon}</span>
