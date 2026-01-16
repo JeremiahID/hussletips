@@ -135,6 +135,7 @@ const Footer = () => {
       <div className="footer-bottom text-center py-3">
         <small className="footer-muted">
           © {new Date().getFullYear()} HustleTips. All rights reserved.
+          Designed by JeremiahEfe
         </small>
       </div>
     </footer>
