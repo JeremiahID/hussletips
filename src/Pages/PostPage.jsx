@@ -6,7 +6,7 @@ const PostPage = () => {
   const [post, setPost] = useState(null);
 
   useEffect(() => {
-    fetch(`https://api.example.com/posts/${id}`)
+    fetch(`http://localhost:8000/post/${id}`)
       .then(res => res.json())
       .then(data => setPost(data))
       .catch(err => console.error(err));
