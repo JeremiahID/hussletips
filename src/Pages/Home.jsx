@@ -19,8 +19,7 @@ import Footer from "../components/Footer/Footer";
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
-      {/* <Hero /> */}
+      <Hero />
 
       <FeaturedPosts posts={Featuredblogposts} link={'See all →'} header = {'Entreprenuer'} />
       <div className="container py-5">
