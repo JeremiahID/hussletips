@@ -1,5 +1,6 @@
 import searchIcon from '../../icons/search.svg';
 import logo from '../../images/logo 2.png'
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -28,12 +29,22 @@ const Navbar = () => {
 
         {/* NAVIGATIONS LINKS WRAPPER */}
         <div className="collapse navbar-collapse " id="navMenu" >
-          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3">
-            <li className="nav-item"><a className="nav-link fw-bold fs-5" href="#">Entrepreneur</a></li>
-            <li className="nav-item"><a className="nav-link fw-bold fs-5" href="#">Digital Marketing</a></li>
-            <li className="nav-item"><a className="nav-link fw-bold fs-5" href="#">Business</a></li>
-            <li className="nav-item"><a className="nav-link fw-bold fs-5" href="#">Inspire</a></li>
-            <li className="nav-item"><a className="nav-link fw-bold fs-5" href="#">Health</a></li>
+          <ul className="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3 fw-bold fs-5">
+            <li className="nav-item">
+              <Link className='nav-link fw-bold fs-5' to="/entreprenuer"> Entrepreneur </Link>
+            </li>
+            <li className="nav-item">
+              <Link className='nav-link fw-bold fs-5' to='/digital-markerting'> Digital Marketing </Link>
+            </li>
+            <li className="nav-item">
+              <Link className='nav-link fw-bold fs-5'> Business </Link>
+            </li>
+            <li className="nav-item">
+              <Link className='nav-link fw-bold fs-5' > Inspire </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link fw-bold fs-5" href="#">Health</Link>
+            </li>
           </ul>
 
 
