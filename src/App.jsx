@@ -2,8 +2,9 @@ import { BrowserRouter as Router, Routes, Route  } from "react-router-dom";
 import './css/bootstrap.css'
 import './css/App.css'
 import Home from "./Pages/Home";
-// import Hero from "./components/Hero/Hero";
+import EntreprenuerPage from "./Pages/entreprenuer/EntreprenuerPage";
 import PostPage from "./Pages/PostPage";
+import EntrepreneurPagePost from "./data/entreprenuerpagepost";
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<PostPage />} />
+        <Route path="/entreprenuer" element={<EntreprenuerPage posts={EntrepreneurPagePost} />} />
         {/* <Route path="/category/:slug" element={<CategoryPage />} /> */}
       </Routes>
     </Router>
