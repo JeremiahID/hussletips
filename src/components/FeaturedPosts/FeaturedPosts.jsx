@@ -5,7 +5,7 @@ const FeaturedPosts = ({ posts, link, header }) => {
     <section className="container py-5 ">
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2 className="fw-bold featured-post-header py-1 px-3 ">{header}</h2>
-        <a href="#" className="text-primary text-decoration-none">
+        <a href="#" onClick={(e) => e.preventDefault()} className="text-primary text-decoration-none">
           {link}
         </a>
       </div>
