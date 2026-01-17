@@ -74,7 +74,7 @@ const Footer = () => {
 
               <small className="footer-muted d-block mt-2">
                 By subscribing, you agree to our{" "}
-                <a href="#" className="footer-link">
+                <a href="/" className="footer-link">
                   Privacy Policy
                 </a>
                 .
