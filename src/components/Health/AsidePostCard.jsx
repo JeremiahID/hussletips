@@ -18,7 +18,7 @@ const AsidePostCard = ({ post }) => {
                     </span>
 
                     <h5 className="card-title mt-2 fs-4 ">
-                        <a href="#" className="">
+                        <a href="/" className="">
                                 {post.title}
                         </a>
                     </h5>
