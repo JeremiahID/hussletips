@@ -30,7 +30,7 @@ const CurrencyUpdates = () => {
     } catch (err) {
       console.error("Failed to fetch prices", err);
     }
-  }, [])
+  }, [prices])
 
   useEffect(() => {
     fetchPrices();
