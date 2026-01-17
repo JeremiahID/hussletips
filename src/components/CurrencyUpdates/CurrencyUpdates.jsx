@@ -37,7 +37,7 @@ const CurrencyUpdates = () => {
     intervalRef.current = setInterval(fetchPrices, 10000);
 
     return () => clearInterval(intervalRef.current);
-  }, []);
+  }, [fetchPrices]);
 
   const getPriceColor = (id, currency) => {
     if (!prevPrices[id]) return "";
