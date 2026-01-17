@@ -14,7 +14,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/post/:id" element={<PostPage />} />
         <Route path="/entreprenuer" element={<EntreprenuerPage posts={EntrepreneurPagePost} />} />
-        {/* <Route path="/category/:slug" element={<CategoryPage />} /> */}
       </Routes>
     </Router>
   );
