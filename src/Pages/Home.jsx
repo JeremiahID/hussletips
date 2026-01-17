@@ -12,7 +12,6 @@ import DigitalMakertingBlogPosts from "../data/digitalmakertingposts";
 import HealthPosts from "../components/Health/HealthPosts";
 import Healthblogposts from "../data/healthblogposts";
 import CurrencyUpdates from "../components/CurrencyUpdates/CurrencyUpdates";
-import PostPage from "./PostPage";
 import Footer from "../components/Footer/Footer";
 
 
