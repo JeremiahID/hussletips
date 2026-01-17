@@ -37,13 +37,13 @@ const Navbar = () => {
               <Link className='nav-link fw-bold fs-5' to='/digital-markerting'> Digital Marketing </Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link fw-bold fs-5'> Business </Link>
+              <Link className='nav-link fw-bold fs-5' to="/entreprenuer"> Business </Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link fw-bold fs-5' > Inspire </Link>
+              <Link className='nav-link fw-bold fs-5' to="/entreprenuer" > Inspire </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link fw-bold fs-5" href="#">Health</Link>
+              <Link className="nav-link fw-bold fs-5" to="/entreprenuer">Health</Link>
             </li>
           </ul>
 
