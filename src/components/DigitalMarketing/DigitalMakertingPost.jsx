@@ -5,7 +5,7 @@ const DigitalMarkertingPosts = ({ posts, header, link }) => {
         <section className=" mt-5 py-3 digital-markerting-post">
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h2 className="fw-bold featured-post-header py-1 px-3 ">{header}</h2>
-                <a href="#" className="text-primary text-decoration-none px-3">
+                <a href="#" onClick={(e) => e.preventDefault()} className="text-primary text-decoration-none px-3">
                     {link}
                 </a>
             </div>
