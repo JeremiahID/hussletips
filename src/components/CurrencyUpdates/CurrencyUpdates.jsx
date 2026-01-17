@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
 
 const coins = [
@@ -16,7 +16,7 @@ const CurrencyUpdates = () => {
   const [loading, setLoading] = useState(true);
   const intervalRef = useRef(null);
 
-  const fetchPrices = async () => {
+  const fetchPrices =useCallback(async () => {
     try {
       const ids = coins.map((c) => c.id).join(",");
       const res = await fetch(
@@ -30,7 +30,7 @@ const CurrencyUpdates = () => {
     } catch (err) {
       console.error("Failed to fetch prices", err);
     }
-  };
+  }, [])
 
   useEffect(() => {
     fetchPrices();
