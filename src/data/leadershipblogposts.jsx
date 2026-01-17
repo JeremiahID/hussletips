@@ -26,7 +26,6 @@ const Leadershipblogposts = [
     date: "Dec 28, 2025",
     category: "Leadership "
   },
-  ,
   {
     id: 4,
     title: "React Performance Optimization Tips",
