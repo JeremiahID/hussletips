@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const FeaturedPostCard = ({ post }) => {
   return (
     <div className="card h-100 shadow-sm border-0">
@@ -24,9 +26,10 @@ const FeaturedPostCard = ({ post }) => {
           {post.excerpt}
         </p>
 
-        <a href={`/post/${post.id}`} className="text-primary text-decoration-none">
+        <Link to={`/entreprenuer-post/${post.id}`} className="text-primary text-decoration-none">
           Read More →
-        </a>
+        </Link>
+
       </div>
     </div>
   );
