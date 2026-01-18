@@ -29,7 +29,7 @@ const EntreprenuerPageCard = ({ post }) => {
           {post.excerpt}
         </p>
 
-        <Link to="" className="text-primary text-decoration-none">
+        <Link to={`/entreprenuer-post/${post.id}`} className="text-primary text-decoration-none">
             Read More →
         </Link>
       </div>
