@@ -18,7 +18,7 @@ const DigitalMarkertingPostCard = ({ post }) => {
                     </span>
 
                     <h5 className="card-title mt-2 fs-4 text-white">
-                       <Link to={`/post/${post.id}`}>
+                       <Link to={`/digital-post/${post.id}`}>
                             {post.title}
                         </Link>
                     </h5>

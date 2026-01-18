@@ -3,7 +3,7 @@ import './css/bootstrap.css'
 import './css/App.css'
 import Home from "./Pages/Home";
 import EntreprenuerPage from "./Pages/entreprenuer/EntreprenuerPage";
-import PostPage from "./Pages/PostPage";
+import DigitalPostPage from "./Pages/PostPages/DigitalPostPage";
 import EntrepreneurPagePost from "./data/entreprenuerpagepost";
 
 
@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/post/:id" element={<PostPage />} />
+        <Route path="/digital-post/:id" element={<DigitalPostPage />} />
         <Route path="/entreprenuer" element={<EntreprenuerPage posts={EntrepreneurPagePost} />} />
       </Routes>
     </Router>
