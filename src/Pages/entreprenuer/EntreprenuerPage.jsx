@@ -9,9 +9,9 @@ const EntreprenuerPage = ({ posts, link, header }) => {
         <Navbar />
 
         <section className="container py-5 ">
-        <div className="d-flex justify-content-center align-items-center mb-4 bg-light">
+        <div className="d-flex justify-content-center align-items-center mb-4 ">
             <img src={EntrepreneurImage} alt="Entreprenuer" />
-            <h2 className="fw-bold featured-post-header text-center fs-1 py-1 px-3 d-md-block d-none ">{header}</h2>
+            {/* <h2 className="fw-bold featured-post-header text-center fs-1 py-1 px-3 d-md-block d-none ">{header}</h2> */}
         </div>
 
         <div className="row g-4">
