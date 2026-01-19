@@ -3,7 +3,7 @@ import EntrepreneurImage from "../../images/Entreprenuer.png"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
 
-const EntreprenuerPage = ({ posts, link, header }) => {
+const EntreprenuerPage = ({ posts}) => {
   return (
     <>
         <Navbar />
