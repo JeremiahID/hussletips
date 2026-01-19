@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/digital-post/:id" element={<DigitalPostPage />} /> 
         <Route path="/entreprenuer-post/:id" element={<EntreprenuerPostPage />} />
-        <Route path="/entreprenuer" element={<EntreprenuerPage posts={EntrepreneurPagePost} />} />
+        <Route path="/entreprenuer" element={<EntreprenuerPage posts={EntrepreneurPagePost} header = {'Entreprenuer'} />} />
       </Routes>
     </Router>
   );
