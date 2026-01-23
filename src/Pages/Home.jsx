@@ -1,4 +1,3 @@
-// import Navbar from "../components/Navbar/Navbar";
 import Hero from "../components/Hero/Hero";
 import FeaturedPosts from "../components/FeaturedPosts/FeaturedPosts";
 import Featuredblogposts from "../data/featuredblogposts";
