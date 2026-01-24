@@ -7,6 +7,9 @@ import DigitalPostPage from "./Pages/PostPages/DigitalPostPage";
 import EntreprenuerPostPage from "./Pages/PostPages/EntreprenuerPostPage";
 import EntrepreneurPagePost from "./data/entreprenuerpagepost";
 import { useEffect } from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 
 function App() {
   useEffect(() => {
