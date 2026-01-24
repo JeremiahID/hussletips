@@ -20,10 +20,15 @@ const PostPage = () => {
     <>
       < Navbar />
       <div className="container py-5">
-        <h1 className="fw-bold">{post.title}</h1>
+        <div className="entreprenuer-post-page">
+                  <h1 className="fw-bold">{post.title}</h1>
         <p className="text-muted">{post.category}</p>
         <img src={post.image} alt={post.title} className="img-fluid mb-4" />
         <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        </div>
+        <div className="aside-trending">
+
+        </div>
       </div>
       <Footer />
     </>
