@@ -11,9 +11,9 @@ const Navbar = () => {
         {/* LOGO WRAPPER */}
         <div className="logo d-flex m-0  ">
           <img src={logo} alt="" srcset="" className='logo-img' />
-          <div className="site-name d-flex flex-column align-items-center justify-content-center" >
-            <a className="navbar-brand fw-bold fs-3 lh-1" href="/">HustleTips</a>
-            <a className="navbar-brand fw-light fs-6  lh-2" href="/">Empower and Inspire  </a>
+          <div className="site-name d-flex flex-column align-items-center justify-content-center">
+            <Link className="navbar-brand fw-bold fs-3 lh-1" to="/"> HustleTips </Link>
+            <Link className='navbar-brand fw-light fs-6  lh-2' to="/" > Empower and Inspire  </Link>
           </div>
         </div>
 
