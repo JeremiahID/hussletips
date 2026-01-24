@@ -9,22 +9,34 @@ const Navbar = () => {
       <div className=" container d-flex  justify-content-around py-2">
 
         {/* LOGO WRAPPER */}
-        <div className="logo d-flex m-0  ">
-          <img src={logo} alt="" srcset="" className='logo-img' />
+        {/* <div className="logo d-flex m-0  ">
+          <img src={logo} alt="Hustle tips Logo" className='logo-img' />
           <div className="site-name d-flex flex-column align-items-center justify-content-center">
             <Link className="navbar-brand fw-bold fs-3 lh-1" to="/"> HustleTips </Link>
             <Link className='navbar-brand fw-light fs-6  lh-2' to="/" > Empower and Inspire  </Link>
           </div>
-        </div>
+        </div> */}
 
-        {/* <button
+       <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
+          <img src={logo} alt="HustleTips Logo" className="logo-img" />
+          <div className="d-flex flex-column lh-1">
+            <span className="fw-bold fs-3 lh-1">HustleTips</span>
+            <small className="fw-light ">Empower & Inspire</small>
+          </div>
+        </Link>
+
+
+        <button
           className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
           <span className="navbar-toggler-icon"></span>
-        </button> */}
+        </button> 
 
 
         {/* NAVIGATIONS LINKS WRAPPER */}
