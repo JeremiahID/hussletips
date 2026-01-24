@@ -11,8 +11,7 @@ import DigitalMakertingBlogPosts from "../data/digitalmakertingposts";
 import HealthPosts from "../components/Health/HealthPosts";
 import Healthblogposts from "../data/healthblogposts";
 import CurrencyUpdates from "../components/CurrencyUpdates/CurrencyUpdates";
-import Footer from "../components/Footer/Footer";
-
+import Footer from "../components/Footer/Footer"; 
 
 const Home = () => {
   return (
