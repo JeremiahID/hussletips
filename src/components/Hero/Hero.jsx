@@ -1,9 +1,10 @@
 import Navbar from "../Navbar/Navbar";
-
+import SearchModal from "../SearchModal/SearchModal";
 const Hero = () => {
   return (
     <section className="hero-image">
       <Navbar/>
+      <SearchModal />
       <div className="container py-5">
         <div className="row align-items-center">
           
