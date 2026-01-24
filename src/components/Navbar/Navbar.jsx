@@ -1,9 +1,19 @@
+import { useState } from 'react';
 import searchIcon from '../../icons/search.svg';
 import logo from '../../images/logo 2.png'
 import { Link } from 'react-router-dom';
-
+import SearchModal from '../SearchModal/SearchModal';
 
 const Navbar = () => {
+
+  // const [OpenSearch, setOpenSerch] = useState(true)
+
+  // function handleSearch (){
+  //   console.log("Button click")
+  //   setOpenSerch(!OpenSearch)
+  //   console.log(OpenSearch)
+  // }
+  
   return (
     <nav className="navbar navbar-expand-lg navbar-light p-0" data-aos="fade-down">
       <div className=" container d-flex  justify-content-around py-2" >
@@ -51,11 +61,16 @@ const Navbar = () => {
 
 
           {/* search button WRAPPER */}
-          <button className='svg-button' data-aos-delay="800" aria-label="Search">
+          <button 
+            // onClick={handleSearch}
+            className='svg-button' 
+            data-aos-delay="800"
+            aria-label="Search">
             <img  className ='navbar-svg-button' src={searchIcon} alt="searchIcon"  width="18"  />
           </button>
         </div>
       </div>
+      {/* {OpenSearch ? <SearchModal /> : null} */}
     </nav>
   );
 };
