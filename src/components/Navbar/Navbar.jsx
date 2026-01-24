@@ -7,16 +7,6 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light p-0">
       <div className=" container d-flex  justify-content-around py-2">
-
-        {/* LOGO WRAPPER */}
-        {/* <div className="logo d-flex m-0  ">
-          <img src={logo} alt="Hustle tips Logo" className='logo-img' />
-          <div className="site-name d-flex flex-column align-items-center justify-content-center">
-            <Link className="navbar-brand fw-bold fs-3 lh-1" to="/"> HustleTips </Link>
-            <Link className='navbar-brand fw-light fs-6  lh-2' to="/" > Empower and Inspire  </Link>
-          </div>
-        </div> */}
-
        <Link to="/" className="navbar-brand d-flex align-items-center gap-2">
           <img src={logo} alt="HustleTips Logo" className="logo-img" />
           <div className="d-flex flex-column lh-1">
@@ -62,7 +52,7 @@ const Navbar = () => {
 
           {/* search button WRAPPER */}
           <button className='svg-button'>
-            <img  className ='navbar-svg-button' src={searchIcon} alt="searchIcon"  />
+            <img  className ='navbar-svg-button' src={searchIcon} alt="searchIcon"  width="18"  />
           </button>
         </div>
       </div>
