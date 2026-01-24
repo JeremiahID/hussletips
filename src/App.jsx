@@ -6,9 +6,17 @@ import EntreprenuerPage from "./Pages/entreprenuer/EntreprenuerPage";
 import DigitalPostPage from "./Pages/PostPages/DigitalPostPage";
 import EntreprenuerPostPage from "./Pages/PostPages/EntreprenuerPostPage";
 import EntrepreneurPagePost from "./data/entreprenuerpagepost";
-
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true,
+    });
+  }, []);
+
   return (
     <Router>
       <Routes>
