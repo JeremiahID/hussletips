@@ -49,13 +49,13 @@ const Navbar = () => {
               <Link className='nav-link fw-bold fs-5' to='/digital-markerting'> Digital Marketing </Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link fw-bold fs-5' to="/entreprenuer"> Business </Link>
+              <Link className='nav-link fw-bold fs-5' to="/business"> Business </Link>
             </li>
             <li className="nav-item">
-              <Link className='nav-link fw-bold fs-5' to="/entreprenuer" > Inspire </Link>
+              <Link className='nav-link fw-bold fs-5' to="/inspire" > Inspire </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link fw-bold fs-5" to="/entreprenuer">Health</Link>
+              <Link className="nav-link fw-bold fs-5" to="/health">Health</Link>
             </li>
           </ul>
 
