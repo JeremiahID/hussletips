@@ -1,8 +1,8 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import searchIcon from '../../icons/search.svg';
 import logo from '../../images/logo 2.png'
 import { Link } from 'react-router-dom';
-import SearchModal from '../SearchModal/SearchModal';
+// import SearchModal from '../SearchModal/SearchModal';
 
 const Navbar = () => {
 
