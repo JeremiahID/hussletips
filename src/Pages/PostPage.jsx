@@ -8,7 +8,7 @@
 //   const [post, setPost] = useState(null);
 
 //   useEffect(() => {
-//     fetch(`http://localhost:8000/${"digital-post/" + id}`)
+//     fetch(`http://localhost:8000/${"post/" + id}`)
 //       .then(res => res.json())
 //       .then(data => setPost(data))
 //       .catch(err => console.error(err));
