@@ -6,13 +6,6 @@ import SearchModal from '../SearchModal/SearchModal';
 
 const Navbar = () => {
 
-  // const [OpenSearch, setOpenSerch] = useState(true)
-
-  // function handleSearch (){
-  //   console.log("Button click")
-  //   setOpenSerch(!OpenSearch)
-  //   console.log(OpenSearch)
-  // }
   
   return (
     <nav className="navbar navbar-expand-lg navbar-light p-0" data-aos="fade-down">
