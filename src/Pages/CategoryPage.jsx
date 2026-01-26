@@ -1,6 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 
+
 const CategoryPage = () => {
   const { slug } = useParams();
   const [posts, setPosts] = useState([]);
