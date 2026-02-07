@@ -1,13 +1,14 @@
 import DigitalMarkertingPostCard from "./DigitalMakertingPostCard";
+import { Link } from "react-router-dom";
 
 const DigitalMarkertingPosts = ({ posts, header, link }) => {
     return ( 
         <section className=" mt-5 py-3 digital-markerting-post">
             <div className="d-flex justify-content-between align-items-center mb-4">
                 <h2 className="fw-bold featured-post-header py-1 px-3 ">{header}</h2>
-                <a href="/" className="text-primary text-decoration-none px-3">
+                <Link to="/digitalmarketing" className="text-primary text-decoration-none px-3" >
                     {link}
-                </a>
+                </Link>
             </div>
             <div className="digital-marketing row m-0 d-flex flex-column  flex-md-row ">
                 {posts.map(post =>(
