@@ -39,7 +39,7 @@ const Navbar = () => {
               <Link className='nav-link fw-bold fs-5' to="/entreprenuer"> Entrepreneur </Link>
             </li>
             <li className="nav-item" data-aos="zoom-in" data-aos-delay="400">
-              <Link className='nav-link fw-bold fs-5' to='/digital-markerting'> Digital Marketing </Link>
+              <Link className='nav-link fw-bold fs-5' to='/digitalmarketing'> Digital Marketing </Link>
             </li>
             <li className="nav-item" data-aos="zoom-in" data-aos-delay="500">
               <Link className='nav-link fw-bold fs-5' to="/business"> Business </Link>

@@ -1,4 +1,6 @@
 import DigitalMarketingPageCard from "./DigitalMarketingPageCard";
+import Navbar from "../../components/Navbar/Navbar";
+import Footer from "../../components/Footer/Footer";
 
 const DigitalMarketingPage  = ({ posts, header }) => {
   return (
@@ -7,7 +9,6 @@ const DigitalMarketingPage  = ({ posts, header }) => {
 
         <section className="container py-5 ">
             <div className="d-flex justify-content-center align-items-center mb-4 ">
-                <img src={EntrepreneurImage} alt="Entreprenuer" className="d-block d-md-none" />
                 <h2 className="fw-bold featured-post-header text-center fs-1 py-1 px-3 d-md-block d-none ">{header}</h2>
             </div>
 
